@@ -3,7 +3,7 @@ CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
 
-SOURCES=main.cpp comment.cpp
+SOURCES=main.cpp comment.cpp lexer.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
 EXECUTABLE=judge
