@@ -20,7 +20,7 @@ post:
 	@rm -rf *.o
 
 clean: post
-	@if [ -a $(EXECUTABLE) ] ; then @rm $(EXECUTABLE); fi;
+	@if [ -a $(EXECUTABLE) ] ; then rm $(EXECUTABLE); fi;
 		
 	@echo Cleaned
 	
