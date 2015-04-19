@@ -11,12 +11,10 @@ public:
 	Lexer(string comment);
 	~Lexer();
 
-	vector<string> GetLexems();
+	vector<string> getLexems();
 
 private:
 	string mComment;
-
-	int mCurrentPosition;
 };
 
 #endif
